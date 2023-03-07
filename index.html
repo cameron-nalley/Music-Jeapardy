@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Guess the song from that Artist!</title>
-  <link rel = "stylesheet" href = "style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Jeopardy!</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-  <div class="wrapper">
-    <h1>Guess the Song!</h1>
-    <div class="content">
-      <input type="text" class="typing-input" maxlength="1">
-      <div class="inputs"></div>
-      <div class="details">
-        <p class="hint">Hint: <span></span></p>
-        <p class="guess-left">Remaining Guesses: <span></span></p>
-        <p class="wrong-letter">Wrong letters: <span></span></p>
-      </div>
-      <button class="reset-btn">Reset Game</button>
-    </div>
-  </div>
+    <h1>LET'S PLAY JEOPARDY!</h1>
+    <div id="game"></div>
 
-  <script src="js/song.js"></script> 
-  <script src="js/script.js"></script>
-  
-  
- </body>
+    <h2>SCORE : <span id="score"></span></h2>
+
+    <script src="script.js"></script>
+</body>
 </html>
