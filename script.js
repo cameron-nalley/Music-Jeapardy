@@ -204,6 +204,18 @@ function addCategory(category) {
         if (question.level === '3') {
             card.innerHTML = 300
         }
+        if (question.level === '4') {
+            card.innerHTML = 400
+        }
+        if (question.level === '5') {
+            card.innerHTML = 500
+        }
+
+        card.setAttribute('data-question', question.question)
+        card.setAttribute('data-answer-1', question.answers[0])
+        card.setAttribute('data-answer-1', question.answers[1])
+        card.setAttribute('data-correct', question.correct)
+        
        
     })
 }
