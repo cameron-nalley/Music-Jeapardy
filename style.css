@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(46,46,46);
-    color: rgb(247, 5, 5);
+    color: rgb(238, 219, 17);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 
 .card {
     width: 160px;
-    height: 120px;
+    height: 150px;
     background-color:blue;
     border-left:black;
     border-right:black;
@@ -28,4 +28,27 @@ body {
     margin: 5px;
     padding: 10px;
     line-height: 120px;
+}
+
+.card-text {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.first-button {
+    background-color: green;
+    display: flex;
+}
+
+.second-button {
+    background-color: red;
+    display: flex;
+}
+
+.correct-answer {
+    background-color: green;
+}
+
+.wrong-answer {
+    background-color: red;
 }
